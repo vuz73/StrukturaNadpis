@@ -15,22 +15,17 @@ using System.Threading.Tasks;
 
 namespace Struktura_nadpis
 {
-    enum Color 
+    enum Tsvet : int
     { 
-        Красный, Желтый, Зеленый, Синий, Голубой
+        Red, Yellow, Green, Blue, Cyan
     }
+    
     class Program
     {
-        struct Title
-        {
-            Color Tsvet;
-            string Text;            
-        }
-
-
+        
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
